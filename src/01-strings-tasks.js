@@ -36,7 +36,8 @@ function concatenateStrings(value1, value2 ) {
  *   ''      => 0
  */
 function getStringLength(value) {
-  return value.length;
+  let res=value.length;
+  return res;
 }
 
 /**
@@ -53,7 +54,8 @@ function getStringLength(value) {
  *   'Chuck','Norris'  => 'Hello, Chuck Norris!'
  */
 function getStringFromTemplate(firstName, lastName ) {
-  return 'hello,'+' '+firstName+' '+lastName+'!';
+  let res='hello, '+firstName+' '+lastName+'!';
+  return res;
 }
 
 /**
